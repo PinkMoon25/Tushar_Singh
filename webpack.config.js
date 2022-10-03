@@ -16,6 +16,28 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         },
+      },
+      {
+        test: /\.css/i,
+        use: [
+          {
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              localsConvention: 'camelCase',
+              sourceMap: true
+            }
+          }
+        ]
+      },
+      {
+        test: /\.(jpg|png|svg)$/,
+        use:{
+          loader: 'url-loader',
+        }
       }
     ]
   },
