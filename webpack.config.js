@@ -27,14 +27,13 @@ module.exports = {
             loader: 'css-loader',
             options: {
               modules: true,
-              localsConvention: 'camelCase',
               sourceMap: true
             }
           }
         ]
       },
       {
-        test: /\.(jpg|png|svg)$/,
+        test: /\.(jpg|png|svg|jpeg)$/,
         use:{
           loader: 'url-loader',
         }
