@@ -7,13 +7,68 @@
 }
 
 :root {
-  --primary-bg-color: #000;
-  --primary-color: #fff;
+  --dark: #000;
+  --light: #fff;
   --primary-font: 'Poppins';
 }
 
 body{
-  background-color: var(--primary-bg-color);
-  color: var(--primary-color);
+  background-color: var(--dark);
+  color: var(--light);
   font-family: var(--primary-font, sans-serif);
+}
+
+header,nav,.hero {
+  display: flex;
+} 
+
+header {
+  height: 12vh;
+  padding: 12px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  gap: 20px;
+  font-weight: 600;
+}
+
+.hero {
+  position: relative;
+  height: calc(100vh - 12vh);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+ul.social-links {
+  list-style: none;
+  position: absolute;
+  left: 25vw;
+  top: 12vh;
+  font-size: 1.6rem;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro > h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.intro > h2 {
+  font-size: 2rem;
+}
+
+.intro > p {
+  line-height: 26px;
+}
+
+.pic {
+  width: 25%;
+  border-radius: 50%;
 }
