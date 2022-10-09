@@ -20,7 +20,7 @@ const data = [
     technologies: ['Html', 'JavaScript', 'Css'],
     description: `devHome is an open-source learning platform for things related to Web.
     We work towards sharing information & knowledge to make it availaible to everyone, everywhere.
-    <em>All it's gonna take is your time and effort</em>.`,
+    All it's gonna take is your time and effort.`,
     live: 'https://pinkmoon25.github.io/Capstone-project-Website/',
     Source: 'https://github.com/PinkMoon25/Capstone-project-Website',
   },
