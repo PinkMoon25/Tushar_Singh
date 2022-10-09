@@ -10,6 +10,7 @@
   --dark: #000;
   --light: #fff;
   --primary-font: 'Poppins';
+  --iframe-width: 30%;
 }
 
 body{
@@ -41,6 +42,8 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 24px;
+  background-repeat: no-repeat;
+  background-position: 92% 0;
 }
 
 ul.social-links {
@@ -49,6 +52,15 @@ ul.social-links {
   left: 25vw;
   top: 12vh;
   font-size: 1.6rem;
+}
+
+a > svg {
+  color: var(--light);
+  transition: all 0.3s ease;
+}
+
+a > svg:hover {
+  transform: scale(1.08) rotate(360deg);
 }
 
 .intro {
@@ -71,4 +83,53 @@ ul.social-links {
 .pic {
   width: 25%;
   border-radius: 50%;
+}
+
+section.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.iframe-container {
+  cursor: pointer; 
+}
+
+iframe {
+  height: 400px;
+  width: 100%;
+}
+
+.project {
+  position: relative;
+  text-align: center;
+}
+
+.project-stack {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+.project-stack > li {
+  padding: 8px;
+  border: 2px solid var(--light);
+}
+
+.project-details {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.iframe-container:hover ~ .project-details {
+  opacity: 1;
+  z-index: 1;
+  background-color: var(--dark)
 }
