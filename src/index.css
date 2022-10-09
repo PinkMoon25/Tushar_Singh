@@ -41,6 +41,8 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 24px;
+  background-repeat: no-repeat;
+  background-position: 92% 0;
 }
 
 ul.social-links {

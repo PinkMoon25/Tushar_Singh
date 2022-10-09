@@ -1,16 +1,11 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter, FaMediumM, FaAngellist } from "react-icons/fa"
-import pic from "../img/profile1.jpg"
-import background from '../img/soundwave.svg'
+import { FaGithub, FaLinkedin, FaTwitter, FaMediumM, FaAngellist } from "react-icons/fa";
+import pic from "../img/profile1.jpg";
+import background from '../img/soundwave.svg';
+
 const Hero = () => {
   return (
-    <section className="hero" style={
-      {
-        backgroundImage: `url(${background})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "95% 0"
-      }
-    }>
+    <section className="hero" style={{backgroundImage: `url(${background})`}}>
       <ul className="social-links">
         <li><a><FaGithub /></a></li>
         <li><a><FaLinkedin /></a></li>
