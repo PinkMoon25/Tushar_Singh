@@ -53,15 +53,6 @@ const data = [
     you can access your collection anytime anywhere,`,
     live: 'https://pinkmoon25.github.io/AwesomeBooks-ES6/',
     Source: 'https://github.com/PinkMoon25/AwesomeBooks-ES6',
-  },
-
-  {
-    name: 'To-Do App',
-    technologies: ['CSS', 'JavaScript', 'React'],
-    description: `A to do app developed with react, You will have access to your tasks anytime,anywhere. 
-    You can add Tasks, mark them as complete, delete tasks, or delete all that are completed at once`,
-    live: 'https://pinkmoon25.github.io/react-todo-app/',
-    Source: 'https://github.com/PinkMoon25/react-todo-app',
   }
 ];
 
