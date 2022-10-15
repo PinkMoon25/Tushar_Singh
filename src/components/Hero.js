@@ -23,6 +23,7 @@ const Hero = () => {
           don't hestiate to <a>contact me</a>.
         </p>
       </div>
+      <hr className="section-border"></hr>
     </section>
   )
 };

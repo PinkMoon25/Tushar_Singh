@@ -6,18 +6,19 @@ const Portfolio = () => {
     <main>
       <h1>My Works...</h1>
       <section className="projects">
-        { data.map(d => (
-          <div className="project">
+        { data.map((d, index) => (
+          <div className="project" key={index}>
             <div className="iframe-container">
-              <iframe src={d.live} title={d.name}></iframe>
+              <iframe src={d.live} title={d.name} sandbox></iframe>
             </div>
-            <a href={d.live}><button>See live</button></a>
+            <a href={d.live} target='_blank'><button>See live</button></a>
+            <a href={d.Source} target='_blank'><button>See source</button></a>
             <div className="project-details">
               <h2>{d.name}</h2>
               <p>{d.description}</p>
               <ul className="project-stack">
-                {d.technologies.map(tech => (
-                  <li>{tech}</li>
+                {d.technologies.map((tech, index) => (
+                  <li key={index}>{tech}</li>
                 ))}
               </ul>
             </div>
