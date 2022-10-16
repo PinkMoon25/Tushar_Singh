@@ -24,6 +24,7 @@ const Portfolio = () => {
             </div>
           </div> 
         ))}
+        <hr className="section-border"></hr>
       </section>
     </main>
   )
