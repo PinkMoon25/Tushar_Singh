@@ -20,7 +20,7 @@ const About = () => {
           <li><img src={railsIcon} alt='Rails icon by Icons8' width='20%'/>Rails </li>
         </ul>
       </div>
-      <div>
+      <div className="about-details">
         <p style={{paddingBottom: '10px'}}>Born and raised in India. I am a passionate software developer and an avid learner.<br/>
           I like all things Programming and Problem-solving.<br/>
           I contribute and work as a Code Reviewer with Microverse.<br/>
