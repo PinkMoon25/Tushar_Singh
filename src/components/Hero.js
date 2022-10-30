@@ -5,7 +5,7 @@ import background from '../img/soundwave.svg';
 
 const Hero = () => {
   return (
-    <section className="hero" style={{backgroundImage: `url(${background})`}}>
+    <section id="home" className="hero" style={{backgroundImage: `url(${background})`}}>
       <ul className="social-links">
         <li><a href="https://github.com/PinkMoon25" target='_blank' ><FaGithub /></a></li>
         <li><a href="https://www.linkedin.com/in/meet-tushar-singh/" target='_blank'><FaLinkedin /></a></li>

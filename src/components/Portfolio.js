@@ -4,8 +4,8 @@ import data from "../project_data";
 const Portfolio = () => {
   return(
     <main>
-      <h1>My Works...</h1>
-      <section className="projects">
+      <h1>My Projects...</h1>
+      <section id="portfolio" className="projects">
         { data.map((d, index) => (
           <div className="project" key={index}>
             <div className="iframe-container">

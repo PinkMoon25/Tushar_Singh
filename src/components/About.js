@@ -8,7 +8,7 @@ import rubyIcon from '../icons/icons8-ruby.png'
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
       <h1>About Me</h1>
       <div className="tech-stack">
         <h2 style={{textDecoration: 'underline'}}>Stack</h2>
