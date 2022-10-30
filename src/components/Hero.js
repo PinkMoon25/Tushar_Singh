@@ -15,7 +15,7 @@ const Hero = () => {
       </ul>
       <img src={pic} className="pic"/>
       <div className="intro">
-        <h1>Hey, I am Tushar</h1>
+        <h1>Hi, I am Tushar</h1>
         <h2>A Passionate Software Developer from India</h2>
         <p>I can help you build a product, feature or website.<br/> 
           Look through some of my work and experience!<br/> 
