@@ -10,6 +10,7 @@
   --dark: #000;
   --light: #fff;
   --primary-font: 'Poppins';
+  font-size: 18px;
 }
 
 body{
@@ -61,7 +62,7 @@ ul.social-links {
   position: absolute;
   left: 25vw;
   top: 12vh;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 a, a > svg {
@@ -79,15 +80,11 @@ a > svg:hover {
 }
 
 h1 {
-  font-size: 3rem;
-}
-
-h2 {
   font-size: 2rem;
 }
 
-p {
-  line-height: 26px;
+h2 {
+  font-size: 1.5rem;
 }
 
 .pic {
@@ -96,6 +93,7 @@ p {
 }
 
 hr.section-border {
+  margin: 0 auto;
   width: 80%;
   border: 1px solid var(--light);
   border-radius: 100%;
@@ -103,14 +101,15 @@ hr.section-border {
 
 main {
   text-align: center;
+  padding: 1.5rem 1rem 0;
 }
 
 section.projects {
-  padding: 20px;
+  padding: 1rem 0 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 2rem;
 }
 
 .iframe-container {
@@ -166,7 +165,7 @@ button, a > button {
   border: none;
   border-radius: 3px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 0.95rem;
   color: var(--dark);
   background-color: var(--light);
   transition: all 0.3s ease;
@@ -180,9 +179,9 @@ button:hover, a > button:hover {
 section.about-section {
   width: 80vw;
   margin: 0 auto;
-  padding-bottom: 26px;
+  padding: 2rem 0;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1.8fr;
   place-items: center;
   border-bottom: 1px solid var(--light);
   border-radius: 5%;
@@ -194,7 +193,7 @@ section.about-section {
 
 .tech-stack {
   width: 80%;
-  padding: 10px 0;
+  padding: 10px 0 1.2rem;
   border-radius: 5px;
   text-align: center;
   font-style: italic;
@@ -204,13 +203,14 @@ section.about-section {
 }
 
 .tech-stack > ul > li {
-width: 70%;
+width: 85%;
 margin: 0 auto 2px auto;
 padding: 5px;
 display: flex;
 align-items: center;
 justify-content: start;
-border-radius: 4px;
+gap: 4px;
+border-radius: 6px;
 color: var(--light);
 background-color: var(--dark);
 }
@@ -218,15 +218,14 @@ background-color: var(--dark);
 section.contact {
   width: 80vw;
   margin: 0 auto;
+  padding: 3.5rem 0 2rem;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 10px;
 }
 
 form {
-  width: 65%;
-  padding: 22px 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -239,6 +238,7 @@ form > * {
 
 form > button {
   width: max-content;
+  align-self: center;
 }
 
 .success {
@@ -252,3 +252,64 @@ form > button {
 .hide {
   display: none;
 }
+
+@media (max-width: 768px) { 
+  :root {
+    font-size: 15px;
+  }
+
+  ul.social-links {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    gap: 1rem;
+    order: 1;
+    font-size: 1.4rem;
+  }
+
+  hr {
+    order: 2;
+  }
+
+  section.hero {
+    background-position: 50% -10%;
+  }
+
+  .pic {
+    width: 50%;
+  }
+
+  section.contact {
+    flex-wrap: wrap;
+  }
+
+  section.about-section{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .about-section > h1 {
+    grid-column: 1;
+  }
+
+  .tech-stack {
+    padding: 10px;
+  }
+
+  .tech-stack > ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .tech-stack > ul > li {
+    width: auto;
+    margin: 0 
+  }
+
+  .about-details {
+    text-align: center;
+  }
+
+ }
