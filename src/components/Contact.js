@@ -44,14 +44,14 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact">
-      <p>I'm always interested in hearing about new projects, 
-        so if you'd like to chat please get in touch &#128073;
+      <p style={{fontSize: "1.5rem", width: "fit-content"}}>I'm always interested in hearing about new projects, 
+        so if you'd like to chat please get in touch &#128591;
       </p>
       <form>
         <input type='text' id="name" placeholder='Your name' maxLength={50} value={name} onChange={e => setName(e.target.value)} required />
         <input type='email' id="email" placeholder='Your email address' value={email} onChange={e => setEmail(e.target.value)} required />
         {error ? <small className="error">please enter a valid email address</small> : null}
-        <textarea placeholder="your message" id="message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
+        <textarea placeholder="your message" id="message" rows={4} value={message} onChange={e => setMessage(e.target.value)}></textarea>
         <button type="submit" onClick={e => submit(e)}>Send message</button>
         <small className= { emailSent ? "success" :  "hide"} >
           Thank you for getting in touch i will get back to you shortly &#128591;
