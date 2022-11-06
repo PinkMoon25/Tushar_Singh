@@ -1,19 +1,14 @@
+const path = require("path")
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
-const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: __dirname + '/src/index.html',
-  filename: 'index.html',
-  inject: 'head'
-})
-
 module.exports = {
-  entry: __dirname + '/src/index.js',
+  entry: "./src/index.js",
   module: {
     rules: [
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
+        test: /\.(js|jsx)$/,
+        exclude: /(node_modules|bower_components)/,
         use: {
           loader: 'babel-loader'
         },
@@ -24,15 +19,22 @@ module.exports = {
       },
       {
         test: /\.(jpg|png|svg|jpeg|gif|pdf)$/,
-        use:{
-          loader: 'url-loader',
+        exclude: /(node_modules|bower_components)/,
+        loader: "file-loader",
+        options:{
+          name: "/images/[name].[ext]",
         }
       }
     ]
   },
+  resolve: { extensions: ["*", ".js", ".jsx"] },
   output: {
-    filename: 'bundle.js',
-    path: __dirname + '/build'
+    path: path.resolve(__dirname, "build/"),
+    filename: 'bundle.js'
   },
-  plugins: [HTMLWebpackPluginConfig, new Dotenv()] 
+  plugins: [new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "public/index.html")
+    }), 
+    new Dotenv()
+  ] 
 };
