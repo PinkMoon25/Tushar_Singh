@@ -1,8 +1,19 @@
 import React from "react";
+import Hero from "./Hero";
+import Header from "./Header";
+import Portfolio from "./Portfolio";
+import About from "./About";
+import Contact from "./Contact";
 
 const App = () => {
   return (
-  <h1>Hello World with React!</h1>
+    <>
+      <Header/>
+      <Hero/>
+      <Portfolio />
+      <About />
+      <Contact />
+    </>
   );
 };
 
