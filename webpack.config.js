@@ -9,6 +9,7 @@ const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 
 module.exports = {
   entry: __dirname + '/src/index.js',
+  devtool: false,
   module: {
     rules: [
       {
