@@ -8,7 +8,7 @@ import rubyIcon from '../icons/icons8-ruby.png'
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
       <h1>About Me</h1>
       <div className="tech-stack">
         <h2 style={{textDecoration: 'underline'}}>Stack</h2>
@@ -20,7 +20,7 @@ const About = () => {
           <li><img src={railsIcon} alt='Rails icon by Icons8' width='20%'/>Rails </li>
         </ul>
       </div>
-      <div>
+      <div className="about-details">
         <p style={{paddingBottom: '10px'}}>Born and raised in India. I am a passionate software developer and an avid learner.<br/>
           I like all things Programming and Problem-solving.<br/>
           I contribute and work as a Code Reviewer with Microverse.<br/>
