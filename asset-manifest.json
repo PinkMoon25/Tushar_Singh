@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tushar_Singh/static/css/main.54c2086a.css",
+    "main.js": "/Tushar_Singh/static/js/main.64a41733.js",
+    "static/media/resume.pdf": "/Tushar_Singh/static/media/resume.8b67574b61298c60d7e6.pdf",
+    "static/media/profile1.jpg": "/Tushar_Singh/static/media/profile1.e9e72a1a6b5cf28da54a.jpg",
+    "static/media/soundwave.svg": "/Tushar_Singh/static/media/soundwave.1d5f4392d084ff0cd98cf10573c85186.svg",
+    "index.html": "/Tushar_Singh/index.html",
+    "main.54c2086a.css.map": "/Tushar_Singh/static/css/main.54c2086a.css.map",
+    "main.64a41733.js.map": "/Tushar_Singh/static/js/main.64a41733.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54c2086a.css",
+    "static/js/main.64a41733.js"
+  ]
+}
