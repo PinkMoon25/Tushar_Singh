@@ -13,7 +13,7 @@ const Header = ()=>{
 
   return (
     <header>
-      <h1>Tushar</h1>
+      <h1><a href="#home">Tushar</a></h1>
       <nav>
         <a href="#home">Home</a>
         <a href="#portfolio">Portfolio</a>
