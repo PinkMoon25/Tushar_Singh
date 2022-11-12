@@ -1,5 +1,5 @@
 import React from "react";
-import resume from '../resume/resume.pdf'
+import resume from '../resume/resume1.pdf'
 import jsIcon from '../icons/icons8-javascript.png'
 import railsIcon from '../icons/icons8-rails.png'
 import reactIcon from '../icons/icons8-react.png'
