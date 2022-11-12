@@ -212,7 +212,7 @@ margin: 0 auto 2px auto;
 padding: 5px;
 display: flex;
 align-items: center;
-justify-content: start;
+justify-content: flex-start;
 gap: 4px;
 border-radius: 6px;
 color: var(--light);
