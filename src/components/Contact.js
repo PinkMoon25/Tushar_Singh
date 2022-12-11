@@ -24,14 +24,18 @@ const Contact = () => {
       setError(false)
       emailjs.send(serviceId, templateId, formParams, userId)
         .then(response => {
-          console.log(response)
+          if(response.status === 200){
+            setEmailSent(true)
+          }
+          else {
+            alert('something went wrong, try again?')
+          }
         })
-        .then(error => console.log(error));
+        .then(error => console.error(error));
 
         setName('');
         setEmail('');
         setMessage('');
-        setEmailSent(true)
     }
     else if(!name || !email || !message) alert('Please fill in all fields.')
     else if(!validEmail(email)) setError(true) 
@@ -51,7 +55,7 @@ const Contact = () => {
         <input type='text' id="name" placeholder='Your name' maxLength={50} value={name} onChange={e => setName(e.target.value)} required />
         <input type='email' id="email" placeholder='Your email address' value={email} onChange={e => setEmail(e.target.value)} required />
         {error ? <small className="error">please enter a valid email address</small> : null}
-        <textarea placeholder="your message" id="message" rows={4} value={message} onChange={e => setMessage(e.target.value)}></textarea>
+        <textarea placeholder="your message" id="message" rows={4} value={message} maxLength={1000} onChange={e => setMessage(e.target.value)}></textarea>
         <button type="submit" onClick={e => submit(e)}>Send message</button>
         <small className= { emailSent ? "success" :  "hide"} >
           Thank you for getting in touch i will get back to you shortly &#128591;
