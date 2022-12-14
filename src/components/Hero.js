@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaMediumM, FaAngellist } from "react-icons/fa";
-import pic from "../img/profile1.jpg";
+import pic from "../img/profile.jpg";
 import background from '../img/soundwave.svg';
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
         <li><a href="https://medium.com/@singhtushar348" target='_blank'><FaMediumM /></a></li>
         <li><a href="https://angel.co/profile/edit/overview" target='_blank'><FaAngellist /></a></li>
       </ul>
-      <img src={pic} className="pic"/>
+      <img src={pic} alt='Image by pch.vector on Freepik' className="pic"/>
       <div className="intro">
         <h1>Hi, I am Tushar</h1>
         <h2>A Passionate Software Developer from India</h2>
