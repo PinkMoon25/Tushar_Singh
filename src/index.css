@@ -36,10 +36,15 @@ ul {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
   height: 12vh;
   padding: 12px 0;
   justify-content: space-around;
   align-items: center;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.78);
 }
 
 nav {
@@ -52,8 +57,9 @@ nav.mobile-nav{
 }
 
 section.hero {
+  margin-top: 12vh;
   position: relative;
-  height: calc(100vh - (12vh));
+  height: 88vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -330,7 +336,7 @@ form > button {
   }
 
   .pic {
-    width: 80%;
+    width: 70%;
   }
 
   section.contact {
