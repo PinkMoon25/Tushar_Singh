@@ -1,15 +1,19 @@
 import React from "react";
 import data from "../project_data";
+import gif from '../img/35-edit-lineal.gif';
 
 const Portfolio = () => {
   return(
     <main>
-      <h1>My Projects...</h1>
+      <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: '8px'}}>
+        <h1>My Works...</h1>
+        <img src={gif} width={50} height={50} style={{borderRadius: '50%'}}/>
+      </div>
       <section id="portfolio" className="projects">
         { data.map((d, index) => (
           <div className="project" key={index}>
-            <div className="iframe-container">
-              <iframe src={d.live} title={d.name} sandbox></iframe>
+            <div className="image-container">
+              <img src={d.image.imageSrc} alt={d.image.imageAlt} className='project-image' />
             </div>
             <a href={d.live} target='_blank'><button>See live</button></a>
             <a href={d.Source} target='_blank'><button>See source</button></a>
