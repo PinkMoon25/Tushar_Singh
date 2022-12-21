@@ -127,7 +127,7 @@ section.projects {
   width: 30vw;
   border-radius: 4px;
   cursor: pointer;
-  background: linear-gradient(to right, wheat, lightyellow, cyan);
+  background: linear-gradient(to right, #fffaf0, #ffffe0, #00ffff);
 }
 
 .project-image {
