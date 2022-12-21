@@ -368,7 +368,7 @@ form > button {
   }
 
   .image-container {
-    width: 80vw;
+    width: 88vw;
   }
 
   ul.social-links {
@@ -395,6 +395,7 @@ form > button {
 
   section.contact {
     width: auto;
+    padding: 2rem;
     flex-wrap: wrap;
   }
 
