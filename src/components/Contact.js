@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from 'emailjs-com';
+import background from '../img/animatedshape.svg';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -47,6 +48,7 @@ const Contact = () => {
   }
 
   return (
+    <div className="bg-container" style={{backgroundImage: `url(${background})`}}>
     <section id="contact" className="contact">
       <p style={{fontSize: "1.5rem", width: "fit-content"}}>I'm always interested in hearing about new projects, 
         so if you'd like to chat please get in touch &#128591;
@@ -62,6 +64,7 @@ const Contact = () => {
         </small>
       </form>
     </section>
+    </div>
   )
 };
 
