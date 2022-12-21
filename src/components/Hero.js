@@ -16,11 +16,11 @@ const Hero = () => {
       <img src={pic} alt='Image by pch.vector on Freepik' className="pic"/>
       <div className="intro">
         <h1>Hi, I am Tushar</h1>
-        <h2>A Passionate Software Developer from India</h2>
+        <h2>A Passionate Software Developer</h2>
         <p>I can help you build a product, feature or website.<br/> 
           Look through some of my work and experience!<br/> 
           If you like what you see and have a project you need coded,<br/>
-          don't hestiate to <a>contact me</a>.
+          don't hesitate to <a href="#contact"><strong><em>contact me</em></strong></a>.
         </p>
       </div>
       <hr className="section-border"></hr>
