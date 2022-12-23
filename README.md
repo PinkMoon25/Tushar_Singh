@@ -11,7 +11,7 @@
 
 ## Live Demo link
 
-[see portfolio](https://pinkmoon25.github.io/Tushar_Singh/)
+[see portfolio](https://tusharsingh.tech/)
 
 
 To get a local copy up and running follow these simple example steps.
