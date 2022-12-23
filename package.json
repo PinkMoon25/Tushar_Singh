@@ -2,7 +2,7 @@
   "name": "react_portfolio",
   "version": "1.0.0",
   "description": "portfolio site built with react",
-  "homepage": "https://pinkmoon25.github.io/Tushar_Singh/",
+  "homepage": "https://tusharsingh.tech/",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
