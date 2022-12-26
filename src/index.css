@@ -125,10 +125,10 @@ section.projects {
 .image-container {
   padding: 8px 8px 0 8px;
   margin-bottom: 10px;
-  width: 30vw;
+  width: 35vw;
   border-radius: 4px;
   cursor: pointer;
-  background: linear-gradient(to right, #fffaf0, #ffffe0, #00ffff);
+  background: linear-gradient(to right, #d4145a, #fbb03b);
 }
 
 .project-image {
