@@ -13,22 +13,22 @@ const Header = ()=>{
 
   return (
     <header>
-      <h1><a href="#home">Tushar</a></h1>
+      <h1 className="name-logo"><a href="#home">Tushar</a></h1>
       <nav>
-        <a href="#home">Home</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="#home" className="navlinks">Home</a>
+        <a href="#portfolio" className="navlinks">Portfolio</a>
+        <a href="#contact" className="navlinks">Contact</a>
+        <a href="#about" className="navlinks">About</a>
       </nav>
       <nav className="mobile-nav">
         <button className="menu-icon" onClick={handleClick}><ImMenu /></button>
         <div className={`mobile-nav-container ${mobileMenu ? null : 'hide-nav'}`}>
           <button onClick={handleClick}><ImCross /></button>
           <ul className="mobile-nav-links">
-            <li><a href="#home" onClick={handleClick}>Home</a></li>
-            <li><a href="#portfolio" onClick={handleClick}>Portfolio</a></li>
-            <li><a href="#contact" onClick={handleClick}>Contact</a></li>
-            <li><a href="#about" onClick={handleClick}>About</a></li>
+            <li><a href="#home" onClick={handleClick} className="navlinks">Home</a></li>
+            <li><a href="#portfolio" onClick={handleClick} className="navlinks">Portfolio</a></li>
+            <li><a href="#contact" onClick={handleClick} className="navlinks">Contact</a></li>
+            <li><a href="#about" onClick={handleClick} className="navlinks">About</a></li>
           </ul>
         </div>
       </nav>

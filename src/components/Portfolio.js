@@ -6,7 +6,7 @@ const Portfolio = () => {
   return(
     <main>
       <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: '8px'}}>
-        <h1>My Works...</h1>
+        <h1>My Work...</h1>
         <img src={gif} width={50} height={50} style={{borderRadius: '50%'}}/>
       </div>
       <section id="portfolio" className="projects">
