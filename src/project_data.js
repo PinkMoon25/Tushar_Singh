@@ -1,9 +1,9 @@
-import air_report_pic from './img/airReport.png';
-import showbizz_pic from './img/showBizz.png';
-import devhome_pic from './img/devHome.png';
-import spaceTravellers_pic from './img/spaceTravellers.png';
-import math_magicians_pic from './img/mathMagicians.png';
-import bookstore_pic from './img/bookstore.png'
+import air_report_pic from './img/project-air-report.webp';
+import showbizz_pic from './img/project-showbizz.webp';
+import resume_builder_pic from './img/project-resume-builder.webp';
+import spaceTravellers_pic from './img/project-spacetravellers.webp';
+import math_magicians_pic from './img/project-math-magicians.webp';
+import bookstore_pic from './img/project-bookstore.webp'
 
 const data = [
   {
@@ -30,19 +30,18 @@ const data = [
     live: 'https://pinkmoon25.github.io/ShowBizz/',
     Source: 'https://github.com/PinkMoon25/ShowBizz',
   },
-  
+
   {
-    name: 'Math Magicians',
+    name: 'Resume Ready',
     image: {
-      imageSrc: math_magicians_pic,
+      imageSrc: resume_builder_pic,
       imageAlt: 'project image',
     },
-    technologies: ['Css', 'JavaScript', 'React'],
-    description: `"Math magicians" is a website for all fans of mathematics. 
-    It is a Single Page App (SPA) that allows users to: Make simple calculations. 
-    Read a random math-related quote`,
-    live: 'https://pinkmoon25.github.io/Math-magicians/',
-    Source: 'https://github.com/PinkMoon25/Math-magicians',
+    technologies: ['React', 'Chakra UI'],
+    description: `A web app to create a well formatted resume in minutes. 
+    you can also download your resume in pdf format or print it.`,
+    live: 'https://resume-builder-pinkmoon25.vercel.app/',
+    Source: 'https://github.com/PinkMoon25/Resume-builder',
   },
 
   {
@@ -59,17 +58,17 @@ const data = [
   },
 
   {
-    name: 'devHome',
+    name: 'Math Magicians',
     image: {
-      imageSrc: devhome_pic,
+      imageSrc: math_magicians_pic,
       imageAlt: 'project image',
     },
-    technologies: ['Html', 'JavaScript', 'Css'],
-    description: `devHome is an open-source learning platform for things related to Web.
-    We work towards sharing information & knowledge to make it availaible to everyone, everywhere.
-    All it's gonna take is your time and effort.`,
-    live: 'https://pinkmoon25.github.io/Capstone-project-Website/',
-    Source: 'https://github.com/PinkMoon25/Capstone-project-Website',
+    technologies: ['Css', 'React'],
+    description: `"Math magicians" is a website for all fans of mathematics. 
+    It is a Single Page App (SPA) that allows users to: Make simple calculations. 
+    Read a random math-related quote`,
+    live: 'https://pinkmoon25.github.io/Math-magicians/',
+    Source: 'https://github.com/PinkMoon25/Math-magicians',
   },
 
   {
