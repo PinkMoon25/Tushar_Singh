@@ -3,14 +3,14 @@ import data from "../project_data";
 import gif from '../img/35-edit-lineal.gif';
 
 const Portfolio = () => {
-  return(
+  return (
     <main>
-      <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: '8px'}}>
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: '8px' }}>
         <h1>My Work...</h1>
-        <img src={gif} width={50} height={50} style={{borderRadius: '50%'}}/>
+        <img src={gif} width={50} height={50} style={{ borderRadius: '50%' }} alt='#' />
       </div>
       <section id="portfolio" className="projects">
-        { data.map((d, index) => (
+        {data.map((d, index) => (
           <div className="project" key={index}>
             <div className="image-container">
               <img src={d.image.imageSrc} alt={d.image.imageAlt} className='project-image' />
@@ -26,7 +26,7 @@ const Portfolio = () => {
                 ))}
               </ul>
             </div>
-          </div> 
+          </div>
         ))}
       </section>
       <hr className="section-border"></hr>

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { ImMenu, ImCross } from "react-icons/im";
 
-const Header = ()=>{
-  const [ mobileMenu, setMobileMenu ] = useState(false)
-  
+const Header = () => {
+  const [mobileMenu, setMobileMenu] = useState(false)
+
   const handleClick = () => {
-    if(!mobileMenu){
+    if (!mobileMenu) {
       setMobileMenu(!mobileMenu)
     }
     else setMobileMenu(!mobileMenu)
