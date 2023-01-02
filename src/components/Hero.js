@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaMediumM, FaAngellist } from "react-icons/fa";
-import pic from "../img/portfolio-profile.jpg";
+import pic from "../img/portfolio-profile.webp";
 import background from '../img/soundwave.svg';
 
 const Hero = () => {

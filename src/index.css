@@ -142,11 +142,10 @@ section.projects {
 }
 
 .image-container {
-  padding: 5px 5px 0 5px;
   margin-bottom: 10px;
   width: 34vw;
-  border-radius: 4px;
   cursor: pointer;
+  box-shadow: #663399 0px 5px 10px;
 }
 
 .project-image {
