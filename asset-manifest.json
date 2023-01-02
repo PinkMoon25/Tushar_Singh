@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.b85f094d.css",
-    "main.js": "/static/js/main.e448bbf6.js",
-    "static/media/showBizz.png": "/static/media/showBizz.071c1722efe88c60dd8d.png",
-    "static/media/devHome.png": "/static/media/devHome.98d4d44c735936863714.png",
-    "static/media/spaceTravellers.png": "/static/media/spaceTravellers.fa7aac5c728ccf728b37.png",
-    "static/media/mathMagicians.png": "/static/media/mathMagicians.f92011e61cbc749342fe.png",
-    "static/media/airReport.png": "/static/media/airReport.8eb8bfbb45a769539740.png",
-    "static/media/portfolio-profile.jpg": "/static/media/portfolio-profile.c81af702779b8f2086b0.jpg",
-    "static/media/bookstore.png": "/static/media/bookstore.9c811dffb80677683169.png",
+    "main.css": "/static/css/main.3e9020c3.css",
+    "main.js": "/static/js/main.262d1a61.js",
     "static/media/35-edit-lineal.gif": "/static/media/35-edit-lineal.f7127bbefc186f4ad3d8.gif",
     "static/media/resume1.pdf": "/static/media/resume1.67b2a4a09982f9e33e97.pdf",
+    "static/media/project-math-magicians.webp": "/static/media/project-math-magicians.26dff374464daf2d694e.webp",
+    "static/media/project-showbizz.webp": "/static/media/project-showbizz.6ee9aa6ad225e2c8f5bc.webp",
+    "static/media/project-resume-builder.webp": "/static/media/project-resume-builder.35a4c728dc8658f2625d.webp",
+    "static/media/project-spacetravellers.webp": "/static/media/project-spacetravellers.9b156fe635bb73ba66c2.webp",
+    "static/media/project-air-report.webp": "/static/media/project-air-report.2cd4ff0b99637a36e1d2.webp",
+    "static/media/project-bookstore.webp": "/static/media/project-bookstore.bdbb25d7c550d57546a0.webp",
+    "static/media/portfolio-profile.webp": "/static/media/portfolio-profile.aba3d0518163d690c67b.webp",
     "static/media/animatedshape.svg": "/static/media/animatedshape.f2e092c73d8f8ce274814a985f8a8192.svg",
     "static/media/soundwave.svg": "/static/media/soundwave.1d5f4392d084ff0cd98cf10573c85186.svg",
     "index.html": "/index.html",
-    "main.b85f094d.css.map": "/static/css/main.b85f094d.css.map",
-    "main.e448bbf6.js.map": "/static/js/main.e448bbf6.js.map"
+    "main.3e9020c3.css.map": "/static/css/main.3e9020c3.css.map",
+    "main.262d1a61.js.map": "/static/js/main.262d1a61.js.map"
   },
   "entrypoints": [
-    "static/css/main.b85f094d.css",
-    "static/js/main.e448bbf6.js"
+    "static/css/main.3e9020c3.css",
+    "static/js/main.262d1a61.js"
   ]
 }
