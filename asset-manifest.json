@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e9020c3.css",
-    "main.js": "/static/js/main.47366934.js",
+    "main.css": "/static/css/main.d3dd9512.css",
+    "main.js": "/static/js/main.c1af9f09.js",
     "static/media/35-edit-lineal.gif": "/static/media/35-edit-lineal.f7127bbefc186f4ad3d8.gif",
     "static/media/resume1.pdf": "/static/media/resume1.67b2a4a09982f9e33e97.pdf",
     "static/media/project-math-magicians.webp": "/static/media/project-math-magicians.26dff374464daf2d694e.webp",
@@ -14,11 +14,11 @@
     "static/media/animatedshape.svg": "/static/media/animatedshape.f2e092c73d8f8ce274814a985f8a8192.svg",
     "static/media/soundwave.svg": "/static/media/soundwave.1d5f4392d084ff0cd98cf10573c85186.svg",
     "index.html": "/index.html",
-    "main.3e9020c3.css.map": "/static/css/main.3e9020c3.css.map",
-    "main.47366934.js.map": "/static/js/main.47366934.js.map"
+    "main.d3dd9512.css.map": "/static/css/main.d3dd9512.css.map",
+    "main.c1af9f09.js.map": "/static/js/main.c1af9f09.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e9020c3.css",
-    "static/js/main.47366934.js"
+    "static/css/main.d3dd9512.css",
+    "static/js/main.c1af9f09.js"
   ]
 }
