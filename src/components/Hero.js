@@ -15,7 +15,7 @@ const Hero = () => {
       </ul>
       <img src={pic} alt='Image by pch.vector on Freepik' className="pic" />
       <div className="intro">
-        <h1 style={{ fontSize: '2.5rem' }}>Hi, I am Tushar</h1>
+        <h1 style={{ fontSize: '2.5rem' }}>Hi, I am <span className="name">Tushar</span></h1>
         <h2>A Passionate Software Developer</h2>
         <p>I can help you build a product, feature or website.
           Look through some of my work and experience!
